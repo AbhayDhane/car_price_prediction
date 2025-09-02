@@ -12,7 +12,7 @@ This project analyzes a car dataset, cleans the data, performs Exploratory Data 
 
 ## 🛠️ Tech Stack
 - Python (pandas, numpy, matplotlib, seaborn, scikit-learn)
-- Jupyter Notebook
+- Google Coolab
 
 ## 📈 Results
 - Random Forest performed best with higher R² accuracy compared to Linear Regression.
@@ -28,3 +28,4 @@ This project analyzes a car dataset, cleans the data, performs Exploratory Data 
 
 ---
 ✨ Developed by [Your Name]
+
