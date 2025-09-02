@@ -1,12 +1,30 @@
-Dear Hiring Manager,
+# 🚗 Car Price Prediction & Analysis
 
-I am writing to express my interest in the Data Analyst position at KPMG. With a strong background in Python, SQL, and data visualization, I am eager to contribute my analytical skills to support data-driven decision-making at your organization.
+## 📌 Project Overview
+This project analyzes a car dataset, cleans the data, performs Exploratory Data Analysis (EDA), and applies Machine Learning models to predict car prices.
 
-In my previous projects, I worked with large datasets to clean, analyze, and visualize insights using tools such as Pandas, NumPy, and Matplotlib. For example, I developed a data analysis project on customer behavior that improved reporting efficiency by 20%. I am confident that my ability to translate data into actionable insights aligns well with the needs of your team.
+## 📊 Steps
+1. Data Cleaning (removed $, hp, ranges, handled NaN values).
+2. Exploratory Data Analysis (EDA) using seaborn & matplotlib.
+3. Built ML models (Linear Regression & Random Forest).
+4. Evaluated model performance using MAE, RMSE, R².
+5. Visualized Actual vs Predicted car prices.
 
- I would be excited to be part of such a forward-thinking environment.
+## 🛠️ Tech Stack
+- Python (pandas, numpy, matplotlib, seaborn, scikit-learn)
+- Jupyter Notebook
 
-Thank you for considering my application. I would welcome the opportunity to discuss how my skills and passion for data analysis can contribute to your team’s success.
+## 📈 Results
+- Random Forest performed best with higher R² accuracy compared to Linear Regression.
+- HorsePower & Torque had strong influence on price.
 
-Sincerely,  
-[Abhay Dhane]  
+## 🚀 Future Work
+- Try advanced models (XGBoost, Gradient Boosting).
+- Build a Streamlit web app for live predictions.
+- Deploy on Streamlit Cloud / Heroku.
+
+## 📂 Dataset
+- File: `cleaned_car_dataset.csv`
+
+---
+✨ Developed by [Your Name]
